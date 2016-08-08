@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+       <head>
+              <meta http-equiv="X-UA-Compatible" content="IE=edge">
+			  <link rel="stylesheet" href="css/main.css" />
+
+   			  <script src="http://veui5infra.dhcp.wdf.sap.corp:8080/sapui5/resources/sap-ui-core.js" id="sap-ui-bootstrap"
+					data-sap-ui-libs="sap.ui.ux3,sap.ui.commons,sap.ui.table"
+					data-sap-ui-theme="sap_goldreflection">
+				</script>
+              
+              <!-- add sap.ui.table,sap.ui.ux3 and/or other libraries to 'data-sap-ui-libs' if required -->
+
+			<script type="text/javascript"
+		      src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDVvdq4_TXBBLYOeherdCoPgzm6XUMaucw&sensor=true">
+		    </script>
+
+   			  <script src="saa/global.js"></script>
+   			  
+   			  <script src="saa/cfg/Cfg.js"></script>
+   			  <script src="saa/util/Util.js"></script>
+   			  
+   			  <script src="saa/model/Model.js"></script>
+   			  <script src="saa/model/ODataHelper.js"></script>
+   			  <script src="saa/model/OrganizationMng.js"></script>
+   			  <script src="saa/model/TextMng.js"></script>
+   			  
+   			  <script src="saa/view/Main.view.js"></script>
+   			  <script src="saa/view/Organization.view.js"></script>
+   			  <script src="saa/view/Map.view.js"></script>
+   			  
+   			  <script src="saa/controller/Main.controller.js"></script>
+   			  <script src="saa/controller/Organization.controller.js"></script>
+   			  <script src="saa/controller/Map.controller.js"></script>
+
+			  <script> sap.ui.localResources("saa");  </script>
+
+       </head>
+       <body class="sapUiBody" role="application"  onload="saa.ModelMng.init()">
+              <div id="main_content"></div>
+       </body>
+</html>

@@ -1,0 +1,37 @@
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+.sapUiUx3ShellHeader{
+	text-align: left !important;
+}
+
+.sapUiUx3NavBarList {
+	text-align: center !important;
+}
+
+/*just copy from the address book*/
+.usertip {border-top: 1px solid #BBBBBB; border-left: 1px solid #BBBBBB;
+         display: none;
+         position:absolute;
+         z-index:999;
+         background-color: #FFFFFF;
+         }
+
+.UserImageDiv {border-top: 1px solid #BBBBBB; border-left: 1px solid #BBBBBB;
+         background-color: #FFFFFF;
+         }
+
+
+.shadow {
+    zoom: 1;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color=#999999,direction=135,Strength=4);
+    -moz-box-shadow: 0 0 5px #222; /*Mozilla-basierte Browser (z.B. Firefox)*/
+    -webkit-box-shadow: 0 0 5px #222; /*WebKit-basierte Browser (z.B. Safari/Chrome)*/
+    box-shadow: 0 0 5px #222; /*CSS3 Standard*/
+}
+
+.RightMargin {
+	margin-right: 20px;	
+}
